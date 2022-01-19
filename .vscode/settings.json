@@ -1,0 +1,32 @@
+{
+	"[python]": {
+	  "editor.tabSize": 4,
+	  "editor.formatOnSave": true,
+	  "editor.formatOnPaste": false,
+	  "editor.formatOnType": false,
+	  "editor.insertSpaces": true,
+	  "editor.codeActionsOnSave": {
+	    "source.organizeImports": false
+	  },
+	},
+	"python.pythonPath": ".venv/bin/python",
+	"python.envFile": ".env",
+	"python.linting.enabled": true,
+	"python.linting.pylintEnabled": false,
+	"python.linting.pycodestyleEnabled": false,
+	"python.linting.flake8Enabled": true,
+	"python.linting.flake8Path": ".venv/bin/flake8",
+	"python.linting.flake8Args": [
+	  "--max-line-length=120",
+	],
+	"python.formatting.provider": "black",
+	"python.formatting.blackPath": ".venv/bin/black",
+	"python.sortImports.path": ".venv/bin/isort",
+	"python.linting.mypyEnabled": true,
+	"python.linting.mypyPath": ".venv/bin/mypy",
+	"python.linting.mypyArgs": [
+	  "--config-file", "mypy.ini"
+	],
+	"python.testing.unittestEnabled": false,
+	"autoDocstring.docstringFormat": "google",
+      }
