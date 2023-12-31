@@ -6,8 +6,8 @@
 	  "editor.formatOnType": false,
 	  "editor.insertSpaces": true,
 	  "editor.codeActionsOnSave": {
-	    "source.organizeImports": false
-	  },
+		"source.organizeImports": "never"
+	},
 	},
 	"python.pythonPath": ".venv/bin/python",
 	"python.envFile": ".env",
